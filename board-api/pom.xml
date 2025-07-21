@@ -58,7 +58,7 @@
 			<optional>true</optional>
 		</dependency>
 
-		<!-- spring boot actuator for health check -->
+		<!-- spring boot actuator for health check 헬스체크 -->
 		<dependency>
 		    	<groupId>org.springframework.boot</groupId>
 		    	<artifactId>spring-boot-starter-actuator</artifactId>
