@@ -70,7 +70,7 @@ jobs:
           
           echo "헬스체크 시작..."
           for i in {1..10}; do
-            if curl -f -s https://board-api-service.azurewebsites.net/board/health > /dev/null 2>&1; then
+            if curl -f -s https://board-api-service.azurewebsites.net/actuator/health > /dev/null 2>&1; then
               echo "헬스체크 성공! (시도 $i)"
               exit 0
             else
