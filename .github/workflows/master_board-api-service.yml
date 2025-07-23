@@ -20,8 +20,8 @@ jobs:
       - name: Set up Java version
         uses: actions/setup-java@v4
         with:
-          java-version: '8'  # Java 8 대신 11 사용
-          distribution: 'zulu'  # Eclipse Temurin 사용 (추천)
+          java-version: '8'  # Java 8 
+          distribution: 'zulu'  # 11일경우 Eclipse Temurin
       
       - name: Build with Maven
         run: |
